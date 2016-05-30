@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class NdigitsI
+{
+public static void main(String []args)
+{
+int n,b=0;
+Scanner s= new Scanner(System.in);
+System.out.println("enter the number");
+n=s.nextInt();
+ while(n>0)
+ {
+ n=n/10;
+ b++;
+ }
+ System.out.println("number of digits:"+b);
+}
+}
